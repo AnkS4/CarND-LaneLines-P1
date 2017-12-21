@@ -6,7 +6,7 @@ To identify the lane lines I did the following steps:
 
 1. Made a copy of the image
 1. Converted the image to grayscale.
-2. Applied image smoothing by GaussianBlur.
+2. Applied image smoothing to gray image by GaussianBlur.
 3. Then, applied Canny Edge detection on blurred image.
 4. Identified region of interest.
 5. Masked the canny output image in region of interest.
