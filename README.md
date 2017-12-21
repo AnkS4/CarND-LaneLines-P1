@@ -11,4 +11,4 @@ To identify the lane lines I did the following steps:
 4. Identified region of interest.
 5. Masked the canny output image in region of interest.
 6. Applied Hough Transform to masked image.
-7. To make the lines semi-transparent, used addWeighted() function.
+7. To make the lines semi-transparent, used addWeighted() function & drawn it over the original image.
