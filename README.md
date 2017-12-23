@@ -12,3 +12,4 @@ To identify the lane lines I did the following steps:
 5. Masked the canny output image in region of interest.
 6. Applied Hough Transform to masked image.
 7. To make the lines semi-transparent, used addWeighted() function & drawn it over the original image.
+8. Modified draw_lines() to extrapolate the line segments.
