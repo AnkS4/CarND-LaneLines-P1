@@ -4,15 +4,16 @@
 
 To identify the lane lines I did the following steps:
 
-1. Made a copy of the image
-1. Converted the image to grayscale.
-2. Applied image smoothing to gray image by GaussianBlur.
-3. Then, applied Canny Edge detection on blurred image.
-4. Identified region of interest.
-5. Masked the canny output image in region of interest.
-6. Applied Hough Transform to masked image.
-7. To make the lines semi-transparent, used addWeighted() function & drawn it over the original image.
-8. Modified draw_lines() to extrapolate the line segments.
+* Made a copy of the image
+* Converted the image to grayscale.
+* Applied image smoothing to gray image by GaussianBlur.
+* Then, applied Canny Edge detection on blurred image.
+* Identified region of interest.
+* Masked the canny output image in region of interest.
+* Applied Hough Transform to masked image.
+* To make the lines semi-transparent, used addWeighted() function & drawn it over the original image.
+* Modified draw_lines() to extrapolate the line segments.
+* Imposed Detected Lanes on the Original Image
 
 (1) Original Image | (2) Gray Image
 :-------------------------:|:-------------------------:
@@ -27,7 +28,7 @@ To identify the lane lines I did the following steps:
 <img src="/images/4 Masked Image.png" alt="Masked Image" width="360"> | <img src="/images/5 Hough Lines.png" alt="Hough Lines" width="360">
 
 (7) Detected Lanes imposed on the Original Image
-:-------------------------:
+:------------------------------------------------:
 <img src="/images/6 Detected Lanes.png" alt="Detected Lanes" width="360">
 
 ## Potential Shortcomings
