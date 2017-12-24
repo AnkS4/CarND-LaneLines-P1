@@ -14,20 +14,19 @@ To identify the lane lines I did the following steps:
 7. To make the lines semi-transparent, used addWeighted() function & drawn it over the original image.
 8. Modified draw_lines() to extrapolate the line segments.
 
-![Original Image](/images/0.jpg)
+<img src="/images/0.jpg" width="360">
 
-![Gray Image](/images/'1 Gray Image.png')
+<img src="/images/1 Gray Image.png" width="360">
 
-![Blurred Image](/images/'2 Blurred Image.png')
+<img src="/images/2 Blurred Image.png" width="360">
 
-![Canny Image](/images/'3 Canny Image.png')
+<img src="/images/3 Canny Image.png" width="360">
 
-![Masked Image](/images/'4 Masked Image.png')
+<img src="/images/4 Masked Image.png" width="360">
 
-![Hough Lines](/images/'5 Hough Lines.png')
+<img src="/images/5 Hough Lines.png" width="360">
 
-![Detected Lanes](/images/'6 Detected Lanes.png')
-
+<img src="/images/6 Detected Lanes.png" width="360">
 
 ## Potential Shortcomings
 
